@@ -1,0 +1,42 @@
+# ----------------------------
+# Python cache / temp files
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# ----------------------------
+# OS / Editor junk
+# ----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ----------------------------
+# Virtual environments
+# ----------------------------
+venv/
+env/
+.venv/
+
+# ----------------------------
+# Large / unnecessary ML artifacts
+# ----------------------------
+*.log
+*.tmp
+*.bak
+
+# ----------------------------
+# Ignore everything in outputs by default
+# ----------------------------
+outputs/*
+
+# ----------------------------
+# But keep important artifacts
+# ----------------------------
+!outputs/mnist_raw.npz
+!outputs/mnist_processed.npz
+!outputs/mnist_cnn_model.h5
