@@ -3,10 +3,10 @@
 This project implements and deploys a Convolutional Neural Network (CNN) to recognize handwritten digits (0–9) using the MNIST dataset. The final model achieves **99.36% test accuracy** and is deployed using **Streamlit** for real-time digit prediction through an interactive drawing interface.
 
 ---
-## 🎥 Demo
+## 🎥 Live Demo
 
 <p align="center">
-  <img src="assets/demo.gif" width="600">
+  <img src="assets/demo.gif" width="650">
 </p>
 
 ---
